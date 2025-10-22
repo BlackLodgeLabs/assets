@@ -2,5 +2,10 @@
   "name": "promptrecall-webhook-handler",
   "version": "1.0.0",
   "main": "index.js",
-  "dependencies": {}
+  "scripts": {
+    "start": "functions-framework --target=helloHttp"
+  },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.0.0"
+  }
 }
